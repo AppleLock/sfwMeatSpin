@@ -1,0 +1,28 @@
+img{
+    width: 15%;
+    min-width: 200px;
+    text-align: center;
+}
+
+#meatImage{
+    animation: rotation 3s infinite linear;
+}
+
+@keyframes rotation{
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+.container{
+    width: 80%;
+    margin:auto;
+}
+
+.main{
+    text-align: center;
+    margin:auto;
+}
